@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0;
+  padding-top: 48px;
+  height: 200vh;
+  background-color: #efefef;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  background-color: rgba(45, 45, 45, 0.95);
+}
+
+img {
+  position: absolute;
+  left: 50%;
+  margin-left: -10px;
+}
